@@ -3,50 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 10</title>
+    <title> xingiling </title>
     <link rel="stylesheet" href="exercício10.css">
 </head>
 <body>
     <header>
         <img src="img/ninja.png" id="logo">
-        <h1 id="titulo">Lojinha xingiling</h1>
+        <h1 id="titulo">Xingiling</h1>
         <nav>
             <ul>
+                <li><button id="cadastro"><a href="#"><b>Cadastro</b></a></button></li>
+                <li><button id="entre"><a href="#"><b>Entre</b></a></button></li>
+                <ul id="redes">
+                    <li><a href="#"><img src="./img/facebook.png" width="30px" height="30px" id="facebook"></a></li>
+                    <li><a href="#"><img src="./img/instagram.png" width="30px" height="30px" id="instagram"></a></li>
+                    <li><a href="#"><img src="./img/tiktok.png" width="30px" height="30px" id="tiktok"></a></li>
+                    <li><a href="#"><img src="./img/twitter.png" width="30px" height="30px" id="twitter"></a></li>
+                    <li><a href="#"><img src="./img/whatsapp.png" width="30px" height="30px" id="whatsapp"></a></li>
+            </ul>
+            </ul>
+            <ul id="fonte">
                 <li><b><a href="#"></a>Home |</b></li>
                 <li><b><a href="#"></a>Produtos |</b></li>
                 <li><b><a href="#"></a>Carrinho |</b></li>
-                <li><b><a href="#"></a>Contato</b></li>  
-                <li><input id="pesquisa" type="search" placeholder="Pesquise no site"></li>
+                <li><b><a href="#"></a>Contato </b></li>
+                </ul>
+                <ul>
+                <li><input id="pesquisa" type="search" placeholder="Pesquise no site"></a></li>
+                <li><a href="#"><img src="./img/shopping-cart.png" width="25px" height="25px" id="carrinho"></a></li>  
+                  
             </ul>
-        </nav>
+         </nav>
     </header>
     <aside>
-        <ul>
-            <p><b>Item 1</b></p>
-            <li><a href="#"><img src="./img/botao-play.png"width='40'height='40'></a></li>
-            <p><b>Item 2</b></p>
-            <li><a href="#"><img src="./img/botao-play.png"width='40' height="40"></a></li>
-            <p><b>Item 3</b></p>
-            <li><a href="#"><img src="./img/botao-play.png"width='40'height='40'></a></li>
+        <ul id="listaesquerda">
+            <br><br>
+            <br>
+            <label for="Moda Masculina"> <b><h3> Moda Masculina</h3></b></label>
+            <select name="Moda Masculina" id="Masculino" required>
+                <option value="Moda Masculina"></option>
+                <option value="Calçados">Calçados</option>
+                <option value="Roupas">Roupas</option>
+                <option value="Acessórios">Acessórios</option>
+                <option value="Calçados">Esporte</option> 
+            </select>
+            <br>
+            <br>
+            <br>
+            <br>
+            <label for="Moda Feminina"><h3>Moda Feminina</h3></label>
+            <select name="Moda Feminina" id="Feminino"required>
+                <option value="Moda Feminina"></option>
+                <option value="Calçados">Calçados</option>
+                <option value="Roupas">Roupas</option>
+                <option value="Acessórios">Acessórios</option>
+                <option value="Calçados">Esporte</option>
+            </select>
         </ul>
     </aside>
     <main>
         <section>
-            <h2>Shopee</h2>
-            <p>Shopee: Shopee é uma plataforma de comércio eletrônico conhecida por sua presença global, </p>
-            <p>especialmente forte no sudeste asiático. Oferece uma vasta gama de produtos, </p>
-            <p>desde eletrônicos até moda e produtos domésticos, além de promover regularmente campanhas de vendas e descontos</p>
-            <h2>Americanas</h2>
-            <p>Americanas: Americanas é uma das maiores varejistas online do Brasil, </p>
-            <p>oferecendo desde eletrônicos e eletrodomésticos até itens de moda e beleza. </p>
-            <p>Além do e-commerce, a empresa também possui uma forte presença física com lojas espalhadas por todo o país.</p>
+            <p>TESTE</p>
         </section>
     </main>
     <footer>
-        <h4><b>Contato</b></h4>
-        <p>xingiling@gmail.com</p>
-        <p>+55 51 99898998</p>
-        &copy; Todos os direitos reservados 2024, by Rafael
+        <ul id="contato">
+            <h3><b>Contato</b></h3>
+            <p><b>xingiling@gmail.com</b></p>
+            <p><b>+55 51 99898998</b></p>
+            <b>&copy; Todos os direitos reservados 2024, by Rafael</b>
+        </ul>
+        <ul id="atendimento">
+            <h3>Atendimento ao cliente</h3>
+            <p><a href="#"></a><b>Perguntas Frequentes</b></p>
+            <p><a href="#"></a><b>Ouvidoria</b></p>
+            <p><a href="#"></a><b>Central de ajuda</b></p>
+        </ul>
+        <ul id="sobre">
+            <h3>Sobre nós</h3>
+            <p><a href="#"></a><b>Política e privacidade</b></p>
+            <p><a href="#"></a><b>Ofertas relâmpagos</b></p>
+            <p><a href="#"></a><b>Institucional</b></p>
+        </ul>
+        <ul id="pagamento">
+            <h3 id="pay">Pagamento</h3>
+            <a href="|#"><img src="./img/card.png" width="42px" height="42px"></a>
+            <a href="|#"><img src="./img/symbols.png" width="42px" height="42px"></a>
+            <a href="|#"><img src="./img/boleto.png" width="42px" height="42px"></a>
+           
+        </ul>
+        <ul id="qr">
+            <h3>Baixe o App</h3>
+            <a href="#"><img src="./img/pix.jpg" width="90px" height="90px" id="bank"></a>
+         </ul>
      </footer> 
 </body>
 </html>
