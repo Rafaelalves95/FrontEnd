@@ -6,11 +6,17 @@ body {
     overflow-x: hidden;
       
 }
-
+#x {
+    float: left;
+    margin-top: 12px;
+    width: 65px;
+    height: 65px;
+    transform: translateX(7px);
+}
 #titulo {
     display: block;
     float: left;
-    transform: translateY(15px);
+    transform: translateY(4px);  
 }
 
 #logo {
