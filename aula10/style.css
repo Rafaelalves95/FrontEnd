@@ -111,7 +111,7 @@ header {
 footer {
     background-color:orange;
     width: 100%;
-    height: 10%;
+    min-height: 10%;
 }
 
 .container {
@@ -142,12 +142,18 @@ footer {
 }
 aside {
     width: 30%;
-    min-height: 80%;
+    height: 80%;
     background-color:darkorange;
+    
 }
 
 main {
     width: 70%;
-    min-height: 80%;
+    height: 80%;
     background-color: yellow;
+    
+}
+#itens {
+
+    display: flex;
 }
