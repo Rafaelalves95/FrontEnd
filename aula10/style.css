@@ -151,3 +151,44 @@ main {
     min-height: 80%;
     background-color: yellow;
 }
+<<<<<<< Updated upstream:aula10/style.css
+=======
+
+section {
+    display: block;
+    text-align: justify;
+}
+
+#qr {
+    float: right;
+    margin-left: 80px;
+
+}
+
+#pagamento {
+    float: left;
+    margin-left: 90px;
+}
+
+#sobre {
+   float: left;
+   margin-left: 90px;
+}
+
+#atendimento {
+    float: left;
+    margin-left: 90px;
+}
+
+#contato {
+    float: left;
+    margin-left: 10px;
+}
+#bank {
+    margin-left: 105px;
+}
+#pay {
+    margin-left: 10px;
+
+}
+>>>>>>> Stashed changes:aula10/exercício10.css
