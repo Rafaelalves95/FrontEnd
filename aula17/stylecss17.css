@@ -1,0 +1,13 @@
+.grid-container {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 20px 10px;
+    justify-content: center;
+    align-content: center;
+}
+.grid-item {
+    display: flex;
+}
+.inner-item {
+    align-items: center;
+    justify-items: center;
+}
