@@ -20,9 +20,10 @@ const aluno = {
     curso: "FrontEnd",
 };
 
-const alunos = [aluno];
+let alunos = [];
 
-console.log(alunos); 
+alunos.push(aluno);
+console.log(alunos) 
 */
 
 //Exercício 2.3:
