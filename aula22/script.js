@@ -66,7 +66,7 @@ function contagemRegressiva(numero) {
     }
 }
 contagemRegressiva(5);
-*/
+
 //Exercício 4:
 
 function calculadora (num1, num2, operacao){
@@ -76,7 +76,23 @@ function calculadora (num1, num2, operacao){
         
         case '-':
             return num1 - num2;
+            
+        case '*':
+            return num1 * num2;
         
+        case '/':
+            return num1 / num2;
     }
 }
+console.log(calculadora(2,3,'+'));
+console.log(calculadora(7,2,'-'));
+console.log(calculadora(10,10,'*'));
+console.log(calculadora(30,10,'/'));
 
+
+function soma (num1,num2){
+    return num1 + num2;
+}
+console.log(soma(30,77));
+
+*/
