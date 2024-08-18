@@ -1,0 +1,160 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header header header"
+      "sidebar content content"
+      "footer footer footer";
+    grid-gap: 10px;
+  }
+  .header {
+    grid-area: header;
+    background-color: darkblue;
+    background-image: url(./img/fundoProgramação.jpg);
+    background-size: cover;
+    min-height: 85vh;
+    border-radius: 10px;
+    display: flex;
+  }
+  #pc { 
+    margin-left: 100px;
+    margin-top: 55px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+ #titulo {
+    margin-left: 10px;
+    margin-top: 90px;
+    width: 570px;
+    height: 10px;
+    font-style: oblique;
+    font-size: 80px;
+    color: white;
+    display: flex;
+ }
+.navegacao {
+    font-size: x-large;
+    float: left;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    gap: 15px;
+    list-style-type: none;
+    font-style: oblique;
+    font-size: x-large;
+    color: white;
+    background-color: darkblue;
+    opacity: 0.8;
+    border-radius: 30px;
+    width: 400px;
+    height: 30px;
+    
+    
+}
+
+  .sidebar {
+    grid-area: sidebar;
+    background-color: darkblue;
+    min-height: 80vh;
+    max-width: 30vw;
+    border-radius: 20px;
+    display: flex;
+    background-image: url(./img/paside.png);
+    background-size: cover;
+    
+  }
+  .aside {
+    background-color: darkblue;
+    width: 297px;
+    height: 720px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: white;
+    flex-direction: column;
+    font-style: oblique;
+    font-size: medium;
+    opacity: 0.9;
+}
+
+#perfil {
+    margin-top: 30px;
+}
+#formacao {
+    margin-top: 20px;
+}
+
+  .content {
+    grid-area: content;
+    background-color: white;     
+    min-height: 90vh;
+    max-width: 90vw;
+    border-radius: 20px;
+    display: flex;
+    background-image: url(./img/main.jpg);
+    background-size: cover;
+    
+  }
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .conteudo {
+    background-color: darkblue;
+    margin-left: 30px;
+    margin-top:35px;
+    border-radius: 20px;
+    width: 600px;
+    height: 710px;
+    color: white;
+    font-style: oblique;
+    list-style-type: none;
+    opacity: 0.8;
+  }
+  .direita {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+  #botao {
+    margin-left: 190px;
+    margin-top: 300px;
+    display: flex;
+    width: 140px;
+    height: 140px;
+  }
+
+  .footer {
+    grid-area: footer;
+    background-color: darkblue;
+    min-height: 40vh;
+    border-radius: 20px;
+    display: flex;
+    background-image: url(./img/neural.png);
+    background-size: cover;
+    opacity: 0.7;
+  }
+  .borda {
+    background-color: blue;
+    width: 1390px;
+    margin-left: 15px;
+    height: 310px;
+    border-radius: 20px;
+  }
+.redes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto ;
+    list-style-type: none;
+    color: white;
+    font-style: oblique;
+}
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.listaUm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

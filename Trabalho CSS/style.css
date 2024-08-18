@@ -37,8 +37,6 @@
     flex-direction: row;
     list-style-type: none;
     color: white;
-    
-    
   }
   .sidebar {
     grid-area: sidebar;
