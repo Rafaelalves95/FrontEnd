@@ -1,267 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
 .container {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas:
-      "header header header"
-      "sidebar content content"
-      "footer footer footer";
-    grid-gap: 10px;
-  }
-  .header {
-    grid-area: header;
-    background-color: darkblue;
-    background-image: url(./img/fundoProgramação.jpg);
-    background-size: cover;
-    min-height: 85vh;
-    border-radius: 10px;
-    display: flex;
-  }
-  #pc { 
-    margin-left: 100px;
-    margin-top: 55px;
-    width: 300px;
-    height: 300px;
-    display: flex;
+  display: flex;
+  flex-direction: column;
 }
- #titulo {
-    margin-left: 10px;
-    margin-top: 90px;
-    width: 570px;
-    height: 10px;
-    font-style: oblique;
-    font-size: 80px;
-    color: white;
-    display: flex;
- }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#img-pc {
+  flex: 1;
+  width: 100px;
+  height: auto;
+}
+
+#titulo {
+  flex: 1;
+}
+
 .navegacao {
-    font-size: x-large;
-    float: left;
-    display: flex;
-    margin-top: 50px;
-    flex-direction: row;
-    gap: 15px;
-    list-style-type: none;
-    font-style: oblique;
-    font-size: x-large;
-    color: white;
-    background-color: darkblue;
-    opacity: 0.8;
-    border-radius: 30px;
-    width: 400px;
-    height: 30px;
-    
-    
+  display: flex;
+  gap: 10px;
+  list-style: none;
 }
 
-  .sidebar {
-    grid-area: sidebar;
-    background-color: darkblue;
-    min-height: 80vh;
-    max-width: 30vw;
-    border-radius: 20px;
-    display: flex;
-    background-image: url(./img/paside.png);
-    background-size: cover;
-    
-  }
-  .aside {
-    background-color: darkblue;
-    width: 297px;
-    height: 720px;
-    margin-left: 10px;
-    border-radius: 20px;
-    color: white;
-    flex-direction: column;
-    font-style: oblique;
-    font-size: medium;
-    opacity: 0.9;
+.navegacao li a {
+  text-decoration: none;
 }
-
-#perfil {
-    margin-top: 30px;
-}
-#formacao {
-    margin-top: 20px;
-}
-
-  .content {
-    grid-area: content;
-    background-color: white;     
-    min-height: 90vh;
-    max-width: 90vw;
-    border-radius: 20px;
-    display: flex;
-    background-image: url(./img/main.jpg);
-    background-size: cover;
-    
-  }
-  section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-  }
-  .conteudo {
-    background-color: darkblue;
-    margin-left: 30px;
-    margin-top:35px;
-    border-radius: 20px;
-    width: 600px;
-    height: 710px;
-    color: white;
-    font-style: oblique;
-    list-style-type: none;
-    opacity: 0.8;
-  }
-  .direita {
-    display: grid;
-    grid-template-rows: 1fr;
-  }
-  #botao {
-    margin-left: 190px;
-    margin-top: 300px;
-    display: flex;
-    width: 140px;
-    height: 140px;
-  }
-
-  .footer {
-    grid-area: footer;
-    background-color: darkblue;
-    min-height: 50vh;
-    border-radius: 20px;
-    display: flex;
-    background-image: url(./img/neuralteste.png);
-    background-size: cover;
-    opacity: 0.9;
-    display: flex;
-  }
-  .borda {
-   
-    width: 1390px;
-    margin-left: 15px;
-    height: 310px;
-    border-radius: 20px;
-    opacity: 0.9;
-  }
-.redes {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto;
-  font-style: oblique;
-  color: black;
-}
-.listaum {
-  margin-top: 10px;
-  width: 340px;
-  height: 290px;
-}
-#contato {
-  margin-top: 100px;
-  margin-left: 100px;
-}
-.itensum {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  gap: 5px;
-  margin-top: 20px;
- 
-}
-#imgitum {
-  margin-top: 18px;
-}
-.itensdois {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  gap: 5px;
-}
-#imgitdois {
-  margin-top: 17px;
-}
-#number {
-  width: 250px;
-  height: 30px;
-}
-.listadois {
-   width: 340px;
-   height: 290px;
-}
-#social {
-  margin-top: 110px;
-  margin-left: 90px;
-}
-.ittopo {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  margin-top: 20px;
- 
-}
-#lkd {
-  margin-top: 15px;
-  margin-left: 31px;
-}
-.itfundo {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  margin-top: 10px;
-}
-#git {
-  margin-left: 31px;
-  margin-top: 13px;
-}
-#rafael {
-  margin-right: 70px;
-}
-.listatres {
-  width: 250px;
-}
-#foto {
-  margin-top: 100px;
-  width: 120px;
-  height: 150px;
-  border-radius: 20px;
-  margin-left: 90px;
-}
-.endereco {
-  width: 200px;
-  height: 100px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
-}
-#place {
-  margin-top: 10px;
-  margin-right: 5px;
-  
-}
-#sl {
- margin-right: 140px;
- width: 200px;
-}
-.listaquatro {
-  width: 270px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-}
-#ecommerce {
-  margin-top: 90px;
-  margin-left: 40px;
-}
-#compracerta {
-  width: 200px;
-  height: 80px;
-  border-radius: 10px;
-  margin-left: 20px;
-}
-#site {
-  margin-left: 18px;
-}
-#copy {
-  width: 270px;
-}
- 

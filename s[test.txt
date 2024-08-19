@@ -1,0 +1,42 @@
+<footer class="footer">
+            <ul class="borda">
+                <ul class="redes">
+                   <ul class="listaum">
+                        <h1 id="contato">Contato</h1>
+                            <ul class="itensum">
+                                <img src="./img/gmail.png" width="25px" height="25px" id="imgitum">
+                                <h3>rafaelalvesdesouza95@gmail.com</h3>
+                            </ul>
+                            <ul class="itensdois">
+                                <a href="https://wa.me/qr/TS37FU7IYQR7B1"><img src="./img/whatsapp.png" width="25px" height="25px" id="imgitdois"></a>
+                                <h3 id="number">+55 51 992386537</h3>
+                            </ul>
+                         </ul>
+                    <ul class="listadois">
+                        <h1 id="social">Redes Sociais</h1>
+                                <ul class="ittopo">
+                                    <a href="https://www.linkedin.com/in/rsza95/"><img src="./img/linkedin.png" width="25px" height="25px" id="lkd"></a>
+                                    <h3>linkedin.com/in/rsza95</h3>
+                                </ul>
+                                <ul class="itfundo"> 
+                                    <a href="https://github.com/Rafaelalves95"><img src="./img/github.png" width="25px" height="25px" id="git"></a>
+                                    <h3 id="rafael">Rafaelalves95</h3> 
+                                </ul>
+                            </ul>
+                    <ul class="listatres">
+                        <img src="./img/foto perfil.jpg" width="100px" height="100px" id="foto"><br>
+                        <ul class="endereco">
+                            <img src="./img/place.png" width="20px" height="29px" id="place">
+                            <h3 id="sl">São Leopoldo, RS, Brasil.</h3> 
+                        </ul>
+                    </ul>
+                    <ul class="listaquatro">
+                        <H1 id="ecommerce">Ecommerce</H1>
+                        <a href="https://compracerta7.com.br/"><img src="./img/logodefinitiva.png" id="compracerta" width="100px" height="40px"></a>
+                        <h3 id="site">www.compracerta7.com.br</h3>
+                        <h4 id="copy">&copy; Todos os direitos reservados 2024.</h4>
+                   </ul>
+                </ul>  
+                </ul> 
+            </ul>             
+        </footer>
